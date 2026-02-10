@@ -3,7 +3,6 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.send("DevOps CI/CD Updated Version 🔥");
-  res.send("In this we are running whole flow again. 🔥");
 });
 
 app.listen(3000, () => {
